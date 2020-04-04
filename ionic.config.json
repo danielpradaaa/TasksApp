@@ -1,0 +1,8 @@
+{
+  "name": "taskApp",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

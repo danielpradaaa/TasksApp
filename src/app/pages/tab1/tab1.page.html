@@ -1,0 +1,21 @@
+<ion-header [translucent]="true" no-border>
+    <ion-toolbar color="dark">
+        <ion-title>
+            Pedientes
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="dark">
+
+    <app-lists [finished]="false"></app-lists>
+
+
+
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+        <ion-fab-button color="tertiary" (click)="rutaAgregarLista()">
+            <ion-icon name="add"></ion-icon>
+        </ion-fab-button>
+    </ion-fab>
+
+</ion-content>
